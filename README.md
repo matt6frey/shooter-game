@@ -13,7 +13,7 @@ You should be able to pull the repo and just open the index file. Alternatively,
 
 ## Notes
 
-I created the sound effects used in the game and added the triggers to fire them. Majority of the logic was from the tutorial, with a few updates I did myself.
+I created the sound effects used in the game and added the triggers to fire them. Majority of the logic was from the tutorial, with a few updates I did myself. All the graphics are also from the tutorial.
 
 The sounds and background music were edited using Audacity. I created the loop of Kavinsky's NightCall for the main music and used some Sonic tracks as the win/lose music. SEGA, please don't come after me :P
 
