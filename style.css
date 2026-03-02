@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4d79bc;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#player,
+#angler1,
+#angler2,
+#drone,
+#hivewhale,
+#lucky,
+#gears,
+#projectile,
+#smokeExplosion, 
+#fireExplosion,
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#nightcall,
+#enemy-kill-1,
+#enemy-kill-2,
+#whale-kill-2,
+#pew,
+#boom,
+#powerup,
+#gameOverTrack,
+#win
+ {
+    display: none;
+}

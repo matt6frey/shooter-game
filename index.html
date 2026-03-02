@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="game"></canvas>
+    <!-- Images -->
+    <!-- characters: player -->
+    <img src="./assets/player/player.png" id="player">
+    <!-- character: enemy -->
+    <img src="./assets/enemy/angler1.png" id="angler1">
+    <img src="./assets/enemy/angler2.png" id="angler2">
+    <img src="./assets/enemy/drone.png" id="drone">
+    <img src="./assets/enemy/hivewhale.png" id="hivewhale">
+    <img src="./assets/enemy/lucky.png" id="lucky">
+    <!-- props -->
+    <img src="./assets/player/gears.png" id="gears">
+    <img src="./assets/player/projectile.png" id="projectile">
+    <!-- props: Explosions -->
+    <img src="./assets/collision/fireExplosion.png" id="fireExplosion">
+    <img src="./assets/collision/smokeExplosion.png" id="smokeExplosion">
+    <!-- environment -->
+    <img src="./assets/bg/layer1.png" id="layer1">
+    <img src="./assets/bg/layer2.png" id="layer2">
+    <img src="./assets/bg/layer3.png" id="layer3">
+    <img src="./assets/bg/layer4.png" id="layer4">
+
+    <!-- Audio -->
+     <!-- Music -->
+    <audio loop id="nightcall">
+      <source src="./assets/audio/kavinsky-nightcall-loop.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+    <audio id="gameOverTrack">
+      <source src="./assets/audio/game-over.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio> 
+    <audio id="win">
+      <source src="./assets/audio/win.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+    <!-- SFX -->
+    <audio id="enemy-kill-1">
+      <source src="./assets/audio/enemy-kill-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+    <audio id="enemy-kill-2">
+      <source src="./assets/audio/enemy-kill-2.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+    <audio id="whale-kill-2">
+      <source src="./assets/audio/whale-kill-2.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+    <audio id="pew">
+      <source src="./assets/audio/pew.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio> 
+    <audio id="boom">
+      <source src="./assets/audio/boom.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+    <audio id="powerup">
+      <source src="./assets/audio/powerup.wav" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>   
+
+    <!-- script -->
+    <script src="./script.js"></script>
+</body>
+</html>
