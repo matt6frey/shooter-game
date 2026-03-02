@@ -14,6 +14,62 @@
     max-height: 100%;
 }
 
+#game-controls-wrapper {
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 404px);
+    width: 100%;
+    max-width: 400px;
+}
+
+#game-controls-button {
+    padding: 0.25rem 0.45rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+#game-controls {
+    display: none;
+    width: 100%;
+    max-width: 200px;
+    background-color: #f1f1f1;
+    padding: 0.5rem;
+    position:relative;
+    border: solid 1px #ccc;
+    border-radius: 7px;
+    box-shadow: 1px 2px rgba(0,0,0,0.25);
+    opacity: 0;
+    transition: opacity 0.5s ease, display 0.5s allow-discrete;
+}
+
+#game-controls.show { 
+    display: block;
+    opacity: 1;
+
+    @starting-style {
+        opacity: 0;
+    }
+}
+
+#game-controls p {
+    margin: 0.5rem;
+}
+
+#game-controls p code {
+    padding: .25rem 0.45rem;
+    border-radius: 7px;
+    border: solid 1px #333;
+    background-color: #999;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#game-controls p code.entity {
+    font-size: 24px;
+    line-height: 36px;
+}
+
 #player,
 #angler1,
 #angler2,

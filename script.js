@@ -2,6 +2,16 @@ window.addEventListener('load', () => {
     const canvas = document.querySelector('#game')
     const ctx = canvas.getContext('2d')
 
+    const controlsBtn = document.querySelector('#game-controls-button')
+    const controlsUI = document.querySelector('#game-controls')
+    controlsBtn.addEventListener('click', () => {
+        if(controlsUI.classList.contains('show')) {
+            controlsUI.classList.remove('show')
+        } else {
+            controlsUI.classList.add('show')
+        }
+    })
+
     canvas.height = 500
     canvas.width = 800
 
@@ -43,9 +53,6 @@ window.addEventListener('load', () => {
                 if (e.key === 'Escape' || e.key === 'p') {
                     this.game.paused = !this.game.paused
                     console.log(`The game is ${this.game.paused ? "paused" : "running"}`)
-                }
-                if (e.key === 'r') {
-                    game = new Game(this.game.width, this.game.height)
                 }
             })
             window.addEventListener('keyup', e => {
