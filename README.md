@@ -2,6 +2,8 @@
 
 This is just a tutorial I did off of YouTube to get a better understanding of developing games for the web.
 
+<img width="795" height="531" alt="image" src="https://github.com/user-attachments/assets/5a5c5437-f6c0-4b01-86b4-972c739b67de" />
+
 ## Running the game
 
 You should be able to pull the repo and just open the index file. Alternatively, you can run if you have python 3.* installed:
